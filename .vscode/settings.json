@@ -3,14 +3,16 @@
     {
       "cwd": "/home/files/bgnet-example",
       "binaryPath": "/home/files/bgnet-example/server",
-      "binaryArgs": []
+      "binaryArgs": [],
+      "stopAtEntry": true,
     },
     {
       "cwd": "/home/files/bgnet-example",
       "binaryPath": "/home/files/bgnet-example/client",
       "binaryArgs": [
         "localhost"
-      ]
+      ],
+    "stopAtEntry": true,
     },
   ]
 }
