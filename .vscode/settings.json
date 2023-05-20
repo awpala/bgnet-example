@@ -12,7 +12,7 @@
       "binaryArgs": [
         "localhost"
       ],
-    "stopAtEntry": true,
+      "stopAtEntry": true,
     },
   ]
 }
