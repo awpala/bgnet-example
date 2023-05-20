@@ -1,0 +1,16 @@
+{
+  "makefile.launchConfigurations": [
+    {
+      "cwd": "/home/files/bgnet-example",
+      "binaryPath": "/home/files/bgnet-example/server",
+      "binaryArgs": []
+    },
+    {
+      "cwd": "/home/files/bgnet-example",
+      "binaryPath": "/home/files/bgnet-example/client",
+      "binaryArgs": [
+        "localhost"
+      ]
+    },
+  ]
+}
