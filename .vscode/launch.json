@@ -27,7 +27,20 @@
           "description": "Set Disassembly Flavor to Intel",
           "text": "-gdb-set disassembly-flavor intel",
           "ignoreFailures": true
-        }
+        },
+        /* 
+          uncomment the gdb setting below in order to step into child process on fork() -- however, note that this
+          will exit the debugger on termination of the child process, rather than returning to the parent. The
+          parent process will still be running in the background, however, even on exiting of the debugger; to kill
+          this running process, simply issue terminal command `kill -9 $(pidof server)`.
+
+          See references as follows:
+            https://stackoverflow.com/a/43622811
+            https://github.com/Microsoft/vscode-cpptools/issues/511#issuecomment-283507115
+        */
+        // {
+        //   "text": "-gdb-set follow-fork-mode child",
+        // },
       ]
     },
     /* ------ CLIENT CONFIG ------ */
@@ -55,7 +68,7 @@
           "description": "Set Disassembly Flavor to Intel",
           "text": "-gdb-set disassembly-flavor intel",
           "ignoreFailures": true
-        }
+        },
       ]
     },
   ]
