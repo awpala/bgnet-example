@@ -67,7 +67,7 @@
         "server"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": [
         "$gcc"
@@ -106,7 +106,7 @@
         "client"
       ],
       "options": {
-        "cwd": "${fileDirname}"
+        "cwd": "${workspaceFolder}"
       },
       "problemMatcher": [
         "$gcc"
