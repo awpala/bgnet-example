@@ -10,7 +10,7 @@
       "cwd": "${workspaceFolder}",
       "binaryPath": "${workspaceFolder}/client",
       "binaryArgs": [
-        "localhost"
+        "localhost",
       ],
       "stopAtEntry": true,
     },
