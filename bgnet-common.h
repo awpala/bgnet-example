@@ -14,6 +14,8 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 
-#define PORT "1927" // common server-client port; ref: https://en.wikipedia.org/wiki/George_P._Burdell
+// common server-client port
+// ref: https://en.wikipedia.org/wiki/George_P._Burdell
+#define PORT "1927"
 
 #endif /* BGNET */
