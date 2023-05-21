@@ -1,14 +1,14 @@
 {
   "makefile.launchConfigurations": [
     {
-      "cwd": "/home/files/bgnet-example",
-      "binaryPath": "/home/files/bgnet-example/server",
+      "cwd": "${workspaceFolder}",
+      "binaryPath": "${workspaceFolder}/server",
       "binaryArgs": [],
       "stopAtEntry": true,
     },
     {
-      "cwd": "/home/files/bgnet-example",
-      "binaryPath": "/home/files/bgnet-example/client",
+      "cwd": "${workspaceFolder}",
+      "binaryPath": "${workspaceFolder}/client",
       "binaryArgs": [
         "localhost"
       ],
