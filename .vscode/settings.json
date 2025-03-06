@@ -14,5 +14,8 @@
       ],
       "stopAtEntry": true,
     },
-  ]
+  ],
+  "C_Cpp.default.compilerPath": "/usr/local/bin/gcc",
+  "C_Cpp.default.cppStandard": "gnu++17",
+  "C_Cpp.default.cStandard": "gnu17",
 }
